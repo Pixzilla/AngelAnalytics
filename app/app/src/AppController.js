@@ -1,4 +1,4 @@
-function AppController(a, $timeout) {
+function AppController(NewsDataService, $http) {
     var self = this;
 
     self.img = null;
@@ -100,6 +100,20 @@ function AppController(a, $timeout) {
 
     function search() {
         if (_isInputValid()) {
+            NewsDataService.huj()
+                .then(function (data) {
+                    console.log("predictor:", data);
+                    var results = [];
+                    for(var i in data.data.results.items){
+                        var item = data.data.results.items[i];
+                        if(item.category.id=="car-dealer-repair")
+                            results.push(item);
+                    }
+                    return results;
+                }, function () {
+                    self.error = "Smth went wrong";
+                });
+
             self.isLoading = false;
             self.error = null;
             let obj = self.searchObj.possibleWhere[self.searchObj.where].possibleWhat[self.searchObj.what];
