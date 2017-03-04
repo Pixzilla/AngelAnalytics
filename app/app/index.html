@@ -109,5 +109,34 @@
         .catch(console.error.bind(console)); // make sure any errors print to console
 </script>
 
+
+
+<script>
+    var platform = new H.service.Platform({
+        app_id: 'ZYa7oEPh5r3A0sytbVgO',
+        app_code: '7YhLr181zrFgrQJpwnGd9Q',
+        useHTTPS: true,
+        useCIT: true
+    });
+    var defaultLayers = platform.createDefaultLayers();
+
+    // Step 2: initialize a map
+    var map = new H.Map(document.getElementById('map'), defaultLayers.normal.map, {
+        center: new H.geo.Point(52.515, 13.405),
+        zoom: 14
+    });
+
+    // Step 3: make the map interactive
+    // mapEvents enables the event system
+    // behavior implements default interactions for pan/zoom (also on mobile touch environments)
+    var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
+
+    // Step 4: create the default UI component, for displaying bubbles
+    var ui = H.ui.UI.createDefault(map, defaultLayers);
+//    overlayHistoricalBerlin(map);
+
+</script>
+
+
 </body>
 </html>
