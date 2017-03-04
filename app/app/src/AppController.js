@@ -98,6 +98,38 @@ function AppController(NewsDataService, $http) {
 
     // Load all registered users
 
+    function addCircleToMap(map, results){
+        map.addObject(new H.map.Circle(
+            // The central point of the circle
+            {lat:28.6071, lng:77.2127},
+            // The radius of the circle in meters
+            1000,
+            {
+                style: {
+                    strokeColor: 'rgba(55, 85, 170, 0.6)', // Color of the perimeter
+                    lineWidth: 2,
+                    fillColor: 'rgba(0, 128, 0, 0.7)'  // Color of the circle
+                }
+            }
+        ));
+
+        for(var i in results){
+            var r = results[i];
+            map.addObject(new H.map.Circle(
+                // The central point of the circle
+                {lat:r.position[0], lng:r.position[1]},
+                // The radius of the circle in meters
+                1000,
+                {
+                    style: {
+                        strokeColor: 'rgba(55, 85, 170, 0.6)', // Color of the perimeter
+                        lineWidth: 2,
+                        fillColor: 'rgba(0, 128, 0, 0.7)'  // Color of the circle
+                    }
+                }
+            ));
+        }
+    }
     function search() {
         if (_isInputValid()) {
             NewsDataService.huj()
@@ -109,6 +141,8 @@ function AppController(NewsDataService, $http) {
                         if(item.category.id=="car-dealer-repair")
                             results.push(item);
                     }
+                    console.log("results: ", results);
+                    addCircleToMap(map, results);
                     return results;
                 }, function () {
                     self.error = "Smth went wrong";
