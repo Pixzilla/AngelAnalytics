@@ -1,0 +1,49 @@
+0,6,13,26,null,null,null,Fußball,null,null,3,«Unser Weg»: FC Ingolstadt überrascht mit Neu-Trainer Walpurgis,63,4593
+1,6,13,26,Afghanistan,USA,null,Konflikte,null,null,3,Tote bei Explosion auf US-Stützpunkt - Taliban: Selbstmordanschlag ,67,3223
+1,6,13,1,Türkei,null,null,Konflikte,Demonstration,null,4,10 000 Alewiten und Kurden demonstrieren in Köln gegen Erdogan,62,1675
+1,6,13,1,null,null,null,Partei,null,null,3,Grüne wollen Ehegattensplitting für künftige Ehen abschaffen,60,1675
+1,6,13,26,null,null,null,Verkehr,null,null,3,Schäuble pocht auf Teilprivatisierung von Autobahnen - SPD sagt Nein,68,5936
+1,6,13,1,Deutschland,Türkei,null,Literatur,null,null,4,Staatsministerin Böhmer wirbt für Kulturaustausch mit der Türkei,64,1854
+1,6,13,26,Nordrhein-Westfalen,null,null,Einzelhandel,null,null,4,Karstadt Sports plant neue Filialen,35,2649
+1,6,13,1,Frankreich,Großbritannien,null,Leute,null,null,3,Sting: Pariser Terroranschläge waren ein Alptraum,49,1806
+1,6,13,1,null,null,null,Migration,Flüchtling,Wissenschaft,4,Mediziner: Schleuser gaben einigen Flüchtlingen wohl Benzinmischungen,69,2681
+1,6,13,14,Deutschland,Türkei,null,Literatur,null,null,4,Ehrengast in schwierigen Zeiten - Deutschland auf Istanbuls Buchmesse,69,5474
+1,6,13,14,England,null,null,Fußball,null,null,4,Kapitän Rooney als Fürsprecher: Southgate soll England-Coach bleiben,68,4494
+1,6,13,33,Schleswig-Holstein,null,null,Partei,null,null,4,Zitat: Wolfgang Kubicki über seine Pläne für Schleswig-Holstein,63,1016
+1,6,13,1,Hamburg,null,null,Fußball,null,null,4,St. Paulis Trainer Lienen: «Ich bin hier noch nicht fertig»,59,2103
+1,6,13,1,Sachsen,null,null,Extremismus,Kriminalität,null,4,Zwickauer OB beklagt Gleichgültigkeit nach Schändung von NSU-Mahnmal ,69,1707
+1,6,13,32,null,null,null,Vorschau,null,null,3,dpa/audio-Programm für Samstag 12. November 2016 13 Uhr,57,1873
+1,6,12,26,Zypern,null,null,Konflikte,UN,null,3,Zypern-Gespräche sollen am 20. November fortgesetzt werden,58,4748
+1,6,12,1,Schleswig-Holstein,null,null,Partei,null,null,4,FDP setzt Kubicki wieder auf Listenplatz eins für die Landtagswahl,66,2041
+1,6,12,14,Frankreich,null,null,Fußball,null,null,3,Ein Jahr nach dem Terror: Frankreichs Sieg an einem besonderen Abend,68,4670
+1,6,12,1,null,null,null,Verkehr,Bahn,null,4,«Spiegel»: Bahn verfehlt in den ersten acht Monaten Umsatzziele,63,1660
+1,6,12,1,null,null,null,Eisschnelllauf,null,null,4,Deutsche Eisschnellläufer enttäuschen in der Team-Verfolgung,60,1057
+1,6,12,1,null,null,null,Verkehr,null,null,4,Bericht: Bahn bekommt frisches Kapital vorerst nicht voll ausgezahlt,68,2566
+1,6,12,1,null,null,null,Leute,null,null,4,Maria Furtwängler: Hatte als Kind Angst vor «Tatort»-Melodie,60,1885
+1,6,12,1,null,null,null,Partei,null,null,4,Trittin kontra Kretschmann: Vermögensteuer schadet Mittelstand nicht,68,2044
+1,6,12,1,USA,null,null,Kriminalität,Regierung,null,3,Schüsse bei Anti-Trump-Demonstration in Portland - Mann verletzt,64,1904
+1,6,12,1,null,null,null,Kriminalität,null,null,4,Unbekannte sprengen Geldautomaten - und lösen Stromausfall aus,62,1599
+1,6,12,26,null,null,null,Unfälle,null,null,4,Unfall mit radioaktiver Ladung,30,2211
+0,6,12,32,null,null,null,Vorschau,null,null,3,dpa/audio AKTUELLER HINWEIS / AFGHANISTAN,41,811
+1,6,12,12,Türkei,null,null,Konflikte,Demonstration,null,4,Die Religionsgemeinschaft der Alewiten,38,1694
+1,6,12,1,null,null,null,Verkehr,null,null,3,Schäuble pocht auf Teilprivatisierung von Autobahnen - SPD sagt Nein,68,1851
+1,6,12,1,Berlin,null,null,Architektur,null,null,4,Parzinger: Bauakademie als Haus der Architektur ,48,2905
+0,6,12,32,null,null,null,Vorschau,Kultur,null,3,Tagesvorschau fünf - Kulturdpa-Tagesvorschau für Samstag 12. November 2016,76,5896
+0,6,12,32,null,null,null,Vorschau,null,null,3,Tagesvorschau vier - Panoramadpa-Tagesvorschau für Samstag 12. November 2016,78,7798
+0,6,12,32,null,null,null,Vorschau,Medien,null,3,Tagesvorschau sechs - Medien/Netzweltdpa-Tagesvorschau für Samstag 12. November 2016,86,3841
+0,6,12,32,null,null,null,Vorschau,null,null,3,Tagesvorschau sieben - Wissendpa-Tagesvorschau für Samstag 12. November 2016,78,3117
+0,6,12,32,null,null,null,Vorschau,Politik,null,3,Tagesvorschau zwei - Politik internationaldpa-Tagesvorschau für Samstag 12. November 2016,91,7322
+0,6,12,32,null,null,null,Vorschau,Wirtschaft,null,3,Tagesvorschau drei - Wirtschaftdpa-Tagesvorschau für Samstag 12. November 2016,80,6290
+0,6,12,32,null,null,null,Vorschau,Politik,null,3,Tagesvorschau eins - Politik Deutschlanddpa-Tagesvorschau für Samstag 12. November 2016,89,11801
+0,6,12,32,null,null,null,Vorschau,Politik,null,3,Tagesvorschau zwei - Politik internationaldpa-Tagesvorschau für Samstag 12. November 2016,91,7322
+0,6,12,32,null,null,null,Vorschau,null,null,3,dpa/audio-Programm für Samstag 12. November 2016 12 Uhr,57,1218
+1,6,12,7,Lettland,USA,null,Regierung,null,null,4,«Keep Latvia Great»: Lettische Website lockt «Trump-Flüchtlinge»,64,1658
+0,6,12,32,null,null,null,Vorschau,null,null,3,Tagesvorschau sieben - Wissendpa-Tagesvorschau für Samstag 12. November 2016,78,3117
+0,6,12,32,null,null,null,Vorschau,Medien,null,3,Tagesvorschau sechs - Medien/Netzweltdpa-Tagesvorschau für Samstag 12. November 2016,86,3841
+0,6,12,32,null,null,null,Vorschau,Kultur,null,3,Tagesvorschau fünf - Kulturdpa-Tagesvorschau für Samstag 12. November 2016,76,5896
+0,6,12,32,null,null,null,Vorschau,null,null,3,Tagesvorschau vier - Panoramadpa-Tagesvorschau für Samstag 12. November 2016,78,7798
+0,6,12,32,null,null,null,Vorschau,Wirtschaft,null,3,Tagesvorschau drei - Wirtschaftdpa-Tagesvorschau für Samstag 12. November 2016,80,6290
+0,6,12,32,null,null,null,Vorschau,Politik,null,3,Tagesvorschau eins - Politik Deutschlanddpa-Tagesvorschau für Samstag 12. November 2016,89,11801
+0,6,12,32,null,null,null,Vorschau,Politik,null,3,Tagesvorschau eins - Politik Deutschlanddpa-Tagesvorschau für Samstag 12. November 2016,89,11801
+1,6,12,11,null,null,null,Partei,null,null,4,Die Vermögensteuer,18,1575
+1,6,12,14,Niederlande,null,null,Justiz,null,null,4,Der Auszug Afrikas: Das Fundament des Weltstrafgerichts bröckelt ,65,5755
