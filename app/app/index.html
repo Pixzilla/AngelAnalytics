@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"/>
     <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
-    <title>Neuro News</title>
+    <title>Angel Analytics</title>
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,700'>
     <link rel="stylesheet" href="./jspm_packages/github/angular/bower-material@master/angular-material.css"/>
     <link rel="stylesheet" href="./assets/app.css"/>
@@ -86,7 +86,10 @@
         <!-- Custom NewsDetails component -->
 
         <div ng-show="!!app.isLoading">
-            <md-progress-circular md-mode="indeterminate"></md-progress-circular>
+
+            <h1>In progress...</h1>
+
+            <md-progress-linear md-mode="indeterminate"></md-progress-linear>
         </div>
         <div ng-show="!app.isLoading">
             <!--<md-button ng-repeat="button in app.buttons"-->

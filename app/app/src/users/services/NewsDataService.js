@@ -4,6 +4,7 @@ import PredictiveServices from "src/users/services/PredictiveServices";
 function NewsDataService($q, $timeout, $http) {
     // Promise-based API
     var NewsDataService = {
+        $timeout: $timeout,
         huj: function (coordinates, query, amount) {
             return $http({
                  url: 'https://places.cit.api.here.com/places/v1/discover/search?at='+coordinates+'&q='+query+'&app_id=ZYa7oEPh5r3A0sytbVgO&app_code=7YhLr181zrFgrQJpwnGd9Q&tf=plain&pretty=true&size='+amount,

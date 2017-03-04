@@ -1,4 +1,4 @@
-function AppController(NewsDataService, $http) {
+function AppController(NewsDataService) {
     var self = this;
 
     self.img = null;
@@ -134,8 +134,19 @@ function AppController(NewsDataService, $http) {
     }
 
     function search() {
+        self.isLoading = false;
         if (_isInputValid()) {
-            let obj = self.searchObj.possibleWhere[self.searchObj.where].possibleWhat[self.searchObj.what];
+            var obj = self.searchObj.possibleWhere[self.searchObj.where].possibleWhat[self.searchObj.what];
+            self.isLoading = true;
+            self.img = obj.imageUrl;
+            NewsDataService.$timeout(function(){
+                self.isLoading = false;
+                self.error = null;
+                self.buttons = obj.buttons;
+                console.log("!!!!!!!!!!!!!!! vse nork");
+            }, 3000);
+
+
 
             // var coor = "48.13642,11.57755";
             // NewsDataService.huj(self.searchObj.possibleWhere[self.searchObj.where].coordinates, self.searchObj.what, self.searchObj.amount)
@@ -157,12 +168,6 @@ function AppController(NewsDataService, $http) {
             //     }, function () {
             //         self.error = "Smth went wrong";
             //     });
-
-            self.isLoading = false;
-            self.error = null;
-            self.img = obj.imageUrl;
-            self.buttons = obj.buttons;
-            console.log("!!!!!!!!!!!!!!! vse nork");
 
         } else {
             self.error = "No information available at the moment";
